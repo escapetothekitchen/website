@@ -4,7 +4,7 @@ title:  "Deviled Eggs that Actually Taste Good"
 date:   2020-10-11 -0400
 categories: food
 ---
-![](/assets/images/deviled_eggs.jpg)
+<img src="/assets/images/deviled_eggs.jpg" width="200"/>
 
 I have a complicated relationship with deviled eggs. The way most people make
 them they are pretty meh and I don't understand why anyone likes them. In
