@@ -4,7 +4,7 @@ title:  "Spicy Chicken Kale Grain Bowl"
 date:   2020-09-24 -0400
 categories: food
 ---
-![](../assets/images/chicken_kale_grain_bowl.jpg)
+![](/assets/images/chicken_kale_grain_bowl.jpg)
 
 Salad Ingredients
 
