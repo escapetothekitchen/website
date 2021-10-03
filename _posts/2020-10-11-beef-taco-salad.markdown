@@ -4,6 +4,7 @@ title:  "Beef Taco Salad"
 date:   2020-10-11 -0400
 categories: food
 ---
+![](/assets/images/beef_taco_salad.jpg)
 
 Tasty quick meal
 
