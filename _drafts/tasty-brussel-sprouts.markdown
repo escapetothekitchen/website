@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chicken Panang Curry"
+title:  "Tasty Brussel Sprouts"
 date:   1970-01-01 -0400
 categories: food
 ---
