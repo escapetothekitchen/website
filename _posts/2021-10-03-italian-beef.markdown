@@ -5,7 +5,12 @@ date:   2021-10-03 -0400
 categories: food
 ---
 
-This is a recipe from my great-grandmother.
+This is a recipe from my husband's great-grandmother.
+
+Ingredients
+
+Directions
+
 
 ![](/assets/images/italian_beef_recipe_1.jpg)
 
