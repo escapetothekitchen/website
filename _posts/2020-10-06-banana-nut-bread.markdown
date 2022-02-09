@@ -7,27 +7,26 @@ categories: food
 
 Ingredients
 
-* 3 really ripe bananas
-* 3/4 stick of butter
-* 2 eggs
-* 1/4 cup brown sugar
-* 1/4 cup sugar
-* 2 tbsp molasses
-* 1 tsp vanilla extract
-* 1/2 tsp almond extract
-* 1 1/2 cups almond flour
+* Cooking spray for the pan (I use avocado oil spray)
+* 3 large really ripe bananas 
+* 1 cup blanched almond flour
 * 1 cup flour
-* 3 tbsp flax seed
-* 1 tsp baking soda
-* 1/2 tsp salt
-* 1/2 cup chopped walnuts
+* 3 large eggs
+* 1/3 coconut sugar
+* 1/3 cup brown sugar
+* 2 tbsp butter, melted
+* 1/2 teaspoon fine sea salt
+* 2 teaspoons baking powder
+* 1 teaspoon ground cinnamon 
+* 2 teaspoon vanilla extract
+* 1/4 cup walnuts, crushed
 * 1/4 cup chocolate chips
 
 Directions
 
 1. Mix all the ingredients together. Start by squishing up your banana then add
-   other wet ingredients (eggs, butter, brown sugar, sugar, molasses, vanilla
-   extract, almond extract). Mix in the dry ingredients (flour, almond flour,
-   baking soda, salt). Lastly add in chopped up walnuts and chocolate chips.
+   other wet ingredients (butter, brown sugar, sugar, vanilla
+   extract, eggs). Mix in the dry ingredients (cinnamon, flour, almond flour,
+   baking powder, salt). Lastly add in chopped up walnuts and chocolate chips. ( It actually works better if you add the chocolate chips after you have already poured it into the baking pan because then the chocolate chips don't all end up on the bottom.)
 2. Grease your baking pan well and pour batter into loaf pan.
-3. Bake at 350 degrees for 45 minutes - 1 hour.
+3. Bake at 350 degrees for 45-55 minutes.
