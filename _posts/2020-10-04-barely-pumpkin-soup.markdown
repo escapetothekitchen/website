@@ -32,7 +32,7 @@ Directions
 3.  Add vegetables to pot. When it is boiling reduce to a simmer.
 4.  Add pumpkin, garlic, and the rest of the water.
 5.  Cook a little while. ( about 10 minutes)
-6.  Add cream and stir thouroughly adding salt and pepper to taste. Start with
+6.  Add cream and stir thoroughly adding salt and pepper to taste. Start with
     about 1/4 tsp of each). Make sure its cooking on low. Cook for about 20
     minutes.
 7.  If you aren't a vegetarian/ have bacon and want to eat it, while the soup
