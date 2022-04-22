@@ -25,7 +25,7 @@ Directions:
 
 3. Separate 4 of the eggs (yolks from the whites), setting the whites aside.
 
-4. In a large bowl whisk together the 6 remaining whole eggs, 4 egg yolks, coconut oil, coconut sugar, vanilla and lemon juice until they are well combined.
+4. In a large bowl whisk together the 6 remaining whole eggs, 4 egg yolks, butter, coconut sugar, vanilla and lemon juice until they are well combined.
    
 5. Then whisk in the flour mixture till completely smooth, with no lumps.
 
