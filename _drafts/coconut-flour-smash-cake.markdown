@@ -12,7 +12,7 @@ Ingredients:
 * 1/2 tsp salt
 * 1/2 tsp baking soda
 * 10 large eggs
-* 1 cup coconut oil
+* 1 cup butter
 * 2 cup coconut sugar
 * 2 tsp vanilla extract
 * 2 tsp lemon juice
