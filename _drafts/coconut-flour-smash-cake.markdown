@@ -8,14 +8,14 @@ categories: food
 Coconut Flour Cake
 
 Ingredients:
-1 cup (60g) coconut flour, sifted
-1/2 tsp salt
-1/2 tsp baking soda
-10 large (US size) eggs
-1 cup (112g) coconut oil
-1 cup (175 ml) honey or maple syrup
-2 tsp vanilla extract
-2 tsp lemon juice
+* 1 cup (60g) coconut flour, sifted
+* 1/2 tsp salt
+* 1/2 tsp baking soda
+* 10 large eggs
+* 1 cup coconut oil
+* 2 cup coconut sugar
+* 2 tsp vanilla extract
+* 2 tsp lemon juice
 
 Directions:
 
@@ -23,9 +23,9 @@ Directions:
 
 2. In a small bowl, sift all the dry ingredients together and set aside. 
 
-3. Separate 2 of the eggs (yolks from the whites), setting the whites aside.
+3. Separate 4 of the eggs (yolks from the whites), setting the whites aside.
 
-4. In a large bowl whisk together the 3 whole eggs, two egg yolks, coconut oil, coconut sugar, vanilla and lemon juice until they are well combined.
+4. In a large bowl whisk together the 6 remaining whole eggs, 4 egg yolks, coconut oil, coconut sugar, vanilla and lemon juice until they are well combined.
    
 5. Then whisk in the flour mixture till completely smooth, with no lumps.
 
