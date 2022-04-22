@@ -8,7 +8,7 @@ categories: food
 Coconut Flour Cake
 
 Ingredients:
-* 1 cup (60g) coconut flour, sifted
+* 1 cup coconut flour
 * 1/2 tsp salt
 * 1/2 tsp baking soda
 * 10 large eggs
