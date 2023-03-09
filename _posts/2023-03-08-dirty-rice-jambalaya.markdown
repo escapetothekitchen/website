@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "Dirty Rice Jambalaya"
-date:   2020-10-04 -0400
+date:   2022-03-08 -0400
 categories: food
 ---
-![](/assets/images/barely_pumpkin_soup.jpg)
 
 My take on Jambalaya.
 
