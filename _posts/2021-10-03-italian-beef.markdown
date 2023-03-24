@@ -9,9 +9,8 @@ This is a recipe from my husband's great-grandmother.
 
 Ingredients
 
-Directions
-
-
 ![](/assets/images/italian_beef_recipe_1.jpg)
+
+Directions
 
 ![](/assets/images/italian_beef_recipe_2.jpg)
