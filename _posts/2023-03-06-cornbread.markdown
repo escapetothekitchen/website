@@ -8,15 +8,15 @@ categories: food
 This gluten-free cornbread recipe is a delicious and easy-to-make option for those who are gluten-intolerant or simply looking for a healthier alternative. Made with a combination of cornmeal and coconut flour, this recipe results in a slightly sweet, moist, and crumbly texture that is perfect for serving as a side dish or snack. The addition of buttermilk, melted butter, eggs, and sugar adds depth of flavor and richness to the cornbread. With just a few simple steps, you can have a warm and satisfying gluten-free cornbread that is sure to please everyone at the table.
 
 Ingredients:
-1 cup cornmeal
-1/2 cup coconut flour
-1/2 tsp baking soda
-1 & 1/2 tsp baking powder
-1 tsp salt
-1 cup buttermilk
-1/2 cup butter, melted
-4 eggs
-1/2 cup granulated sugar
+* 1 cup cornmeal
+* 1/2 cup coconut flour
+* 1/2 tsp baking soda
+* 1 & 1/2 tsp baking powder
+* 1 tsp salt
+* 1 cup buttermilk
+* 1/2 cup butter, melted
+* 4 eggs
+* 1/2 cup granulated sugar
 
 Instructions:
 1. Preheat the oven to 350°F.
