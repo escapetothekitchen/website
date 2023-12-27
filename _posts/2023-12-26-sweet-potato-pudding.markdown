@@ -31,3 +31,9 @@ categories: dessert
 4. Mix all ingredients together
 5. Put it in a baking pan (cast iron works well)
 6. Cook for 30-60 minutes
+
+## Variations
+
+### Eggless
+You can substitute 1 TBSP cornstarch for the egg. This will make
+the inside more goey / pudding-like. It tastes just as good.
