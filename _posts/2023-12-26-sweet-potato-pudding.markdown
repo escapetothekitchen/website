@@ -5,11 +5,7 @@ date:   2023-12-26 -0400
 categories: dessert
 ---
 
-
-
 # Sweet Potato Pudding
-
-This is a work in progress. It may not turn out well.
 
 ## Ingredients
 - 1 cup of flour
@@ -24,13 +20,11 @@ This is a work in progress. It may not turn out well.
 - 1/4 tsp cloves
 - 1/4 tsp cinnamon
 - 1/8 tsp allspice
-- 1/4 milk amount TBD
-
-
+- 1/4 milk amount
 
 ## Instructions
 
-1. Boil the sweet potatoes
+1. Boil the sweet potatoes (unpeeled)
 2. Preheat oven to 400F
 2. Peel the sweet potatoes 
 3. Mash the sweet potatoes
