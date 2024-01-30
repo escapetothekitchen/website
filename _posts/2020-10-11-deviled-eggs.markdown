@@ -9,8 +9,8 @@ categories: food
 I have a complicated relationship with deviled eggs. The way most people make them they are pretty meh and I don't understand why anyone likes them. In contrast these deviled eggs are badass and loaded. Do not bring to any event where someone else also is bringing deviled eggs because these will be  som much better than theirs that it will make them feel bad and no one wants that.
 
 Ingredients:
-* some eggs
-* some mayonnaise
+* 10 eggs
+* some mayonnaise (Duke's is the best)
 * 1 tsp grassfed butter
 * 1 tsp dijon mustard
 * 2 tbsp relish
