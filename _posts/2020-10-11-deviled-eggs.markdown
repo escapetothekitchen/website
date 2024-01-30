@@ -6,25 +6,27 @@ categories: food
 ---
 <img src="/assets/images/deviled_eggs.jpg" width="200"/>
 
-I have a complicated relationship with deviled eggs. The way most people make
-them they are pretty meh and I don't understand why anyone likes them. In
-contrast these Deviled eggs are badass and loaded!
+I have a complicated relationship with deviled eggs. The way most people make them they are pretty meh and I don't understand why anyone likes them. In contrast these deviled eggs are badass and loaded. Do not bring to any event where someone else also is bringing deviled eggs because these will be  som much better than theirs that it will make them feel bad and no one wants that.
 
 Ingredients:
-
-* eggs
-* mayonaise
-* grssfed butter
-* dijon mustard
-* relish
-* sweet onions
-* salt
-* pepper
-* paprika
-* vinegar
+* some eggs
+* some mayonnaise
+* 1 tsp grassfed butter
+* 1 tsp dijon mustard
+* 2 tbsp relish
+* 1/4 of finely minced sweet onion
+* salt to taste
+* pepper to taste
+* paprika to taste
+* 1 tsp white vinegar
 
 Directions:
+1. Boil eggs.
+2. Peel eggs.
+3.  Slice ggs in half putting the cooked yolks in a bowl and placing the whites gently into an egg dish.
+4.  Add all the ingredients except the paprika together and mix well.
+5.  Spoon mixture into the egg whites and sprinkle with paprika.
 
-They look better if you make an amount that actually fits the number of holes on
+Notes: They look better if you make an amount that actually fits the number of holes on
 the serving plate. I should have made 1 more egg. Learn from my mistake. Count your
 holes.
