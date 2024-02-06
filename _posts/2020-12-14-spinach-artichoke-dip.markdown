@@ -1,14 +1,12 @@
 ---
 layout: post
 title:  "Spinach Artichoke Dip"
-date:   2020-12-14 -0400
+date:   2020-12-14-0400
 categories: food
 ---
 ![](/assets/images/spinach_artichoke_dip.jpg)
 
-This is tasty. Most recipes for spinach artichoke dip call for Mozzarella
-cheese. One day I didn't have any and substituted the cheeses that I did have.
-And it was delicious! I will always make it like this now.
+This is tasty. Most recipes for spinach artichoke dip call for Mozzarella cheese. One day I didn't have any and substituted the cheeses that I did have. And it was delicious! I will always make it like this now.
 
 * 8 oz. cream cheese, well softened
 * 1/4 cup sour cream
@@ -26,8 +24,7 @@ And it was delicious! I will always make it like this now.
 Directions
 
 1.  Preheat oven to 350 degrees Fahrenheit.
-2.  Grease a pan and pour frozen spinach in. Place in oven while it preheats.
-    This will thaw and cook your spinach a little.
+2.  Grease a pan and pour frozen spinach in. Place in oven while it preheats. This will thaw and cook your spinach a little.
 3.  Chop up your artichoke hearts
 4.  Shred your cheese.
 5.  Combine all ingredients, including the spinach you put in the oven earlier.
@@ -36,7 +33,5 @@ Directions
 7.  Pour into baking dish.
 8.  Sprinkle the remaining Parmesan cheese on top.
 9.  Bake for about 35 minutes or until the top is golden.
-10. Enjoy with chips, toasted bread, sliced veggies, or whatever you want
-    really.
+10. Enjoy with chips, toasted bread, sliced veggies, or whatever you want really.
 
-delicious

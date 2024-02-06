@@ -9,9 +9,12 @@ categories: food
 This dish looks impressive.
 
 Ingredients:
-TBD
+- Brussel sprouts
+- white wine
+
 
 Directions:
-TBD
+1. Peel the brussel sprouts so you have a bunch of individual leaves. Quarter the remaining center. 
+
 
 These leftovers look amazing!
