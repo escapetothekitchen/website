@@ -30,7 +30,7 @@ url: "https://escapetothekitchen.com" # the base hostname & protocol for your si
 # Build settings
 remote_theme: pages-themes/dinky@v0.2.0
 plugins:
-  - jekyll-remote-theme
+- jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
