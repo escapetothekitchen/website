@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Quesdailla sauce"
+title:  "Quesadilla sauce"
 date:   2024-03-08
 categories: food
 ---
-Makes a dozen and a half of muffins
+
 
 Ingredients
 - ½ cup mayonnaise
