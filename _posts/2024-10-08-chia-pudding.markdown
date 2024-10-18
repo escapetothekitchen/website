@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chai pudding"
+title:  "Chia pudding"
 date:   2024-10-08
 categories: food
 ---
