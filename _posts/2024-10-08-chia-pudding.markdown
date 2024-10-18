@@ -20,7 +20,7 @@ Ingredients
 
 Instructions
 1. Combine all ingredient except the chia seeds in a bowl.
-2, Add chia seeds while stirring and stir until well combined.
+2. Add chia seeds while stirring and stir until well combined.
 3. Cover and place in the refridgerator to set for at least 6 hours. 
 4. Enjoy! 
 
