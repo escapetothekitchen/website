@@ -4,8 +4,6 @@ date: '2023-04-25T04:00:00.000Z'
 categories:
   - sauce
 ---
-Description goes here
-
 # Jamaican Jerk Seasoning
 
 ## Ingredients

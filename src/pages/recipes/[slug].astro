@@ -19,7 +19,7 @@ const { Content } = await entry.render();
     <h1 class="text-3xl font-extrabold tracking-tight">{entry.data.title}</h1>
     <div class="text-sm text-muted">{new Date(entry.data.date).toLocaleDateString()}</div>
     {entry.data.categories?.length ? (
-      <div class="flex flex-wrap gap-1">{entry.data.categories.map((c) => <span class="pill">{c}</span>)}</div>
+      <div class="flex flex-wrap gap-1">{entry.data.categories.map((c) => <a href={`/categories/${encodeURIComponent(c.toLowerCase())}/`} class="pill">{c}</a>)}</div>
     ) : null}
     <div class="prose prose-slate max-w-none">
       <Content />

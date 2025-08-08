@@ -23,13 +23,13 @@ const initial = q
   <section class="container mt-4">
     <div id="list" class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {initial.map(({ slug, data }) => (
-        <a href={`/recipes/${slug}`} class="card p-4">
+        <div class="card p-4">
           <div class="grid gap-2">
-            <div class="font-semibold tracking-tight text-slate-900">{data.title}</div>
+            <a href={`/recipes/${slug}`} class="font-semibold tracking-tight text-slate-900 hover:underline">{data.title}</a>
             <div class="text-sm text-muted">{new Date(data.date).toLocaleDateString()}</div>
-            <div class="flex flex-wrap gap-1">{data.categories?.map((c) => <span class="pill">{c}</span>)}</div>
+            <div class="flex flex-wrap gap-1">{data.categories?.map((c) => <a href={`/categories/${encodeURIComponent(c.toLowerCase())}/`} class="pill">{c}</a>)}</div>
           </div>
-        </a>
+        </div>
       ))}
     </div>
   </section>
@@ -37,13 +37,13 @@ const initial = q
     const input = document.getElementById('search');
     const list = document.getElementById('list');
     const template = (r) => `
-      <a href="/recipes/${r.id}" class="card p-4">
+      <div class="card p-4">
         <div class="grid gap-2">
-          <div class="font-semibold tracking-tight text-slate-900">${r.title}</div>
+          <a href="/recipes/${r.id}" class="font-semibold tracking-tight text-slate-900 hover:underline">${r.title}</a>
           <div class="text-sm text-muted">${new Date(r.date).toLocaleDateString()}</div>
-          <div class="flex flex-wrap gap-1">${(r.categories||[]).map(c=>`<span class=\"pill\">${c}</span>`).join('')}</div>
+          <div class="flex flex-wrap gap-1">${(r.categories||[]).map(c=>`<a href=\"/categories/${encodeURIComponent(c.toLowerCase())}/\" class=\"pill\">${c}</a>`).join('')}</div>
         </div>
-      </a>`
+      </div>`
     let index;
     async function ensureIndex(){
       if (!index) {
