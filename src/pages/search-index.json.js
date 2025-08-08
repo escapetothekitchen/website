@@ -3,7 +3,8 @@ import { makeExcerpt } from '../lib/text';
 
 export async function GET() {
   const recipes = await getCollection('recipes');
-  const data = recipes.map(r => ({
+  const sorted = recipes.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+  const data = sorted.map(r => ({
     id: r.slug,
     slug: r.slug,
     title: r.data.title,
