@@ -2,7 +2,7 @@ name: Deploy site
 
 on:
   push:
-    branches: [ main, refactor ]
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -26,8 +26,6 @@ jobs:
           node-version: 20
       - name: Install deps
         run: npm ci || npm install
-      - name: Migrate content
-        run: npm run migrate
       - name: Build
         run: npm run build
       - name: Upload artifact
