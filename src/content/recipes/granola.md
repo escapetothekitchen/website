@@ -1,0 +1,33 @@
+---
+title: Granola
+date: '2022-11-06T04:00:00.000Z'
+categories:
+  - food
+  - snack
+description: Ingredients
+---
+Ingredients
+
+* 1 ripe banana
+* 3 tbsp butter
+* 2 cups steel cut or rolled oats (not instant)
+* 2 cups mixed nuts
+* 1/4 cup maple syrup
+* 1/3 cup coconut flakes
+* 1 tsp salt (if using unsalted nuts)
+* 2 tsp vanilla extract
+* 2 tsp cinnamon
+
+
+
+
+Directions
+
+1. Preheat oven to 200°F.
+2. Melt the butter in a bowl.
+3. Squash the banana together with the butter.
+4. Chop the nuts in a food processor.
+5. Add the nuts into the main bowl and mix well.
+6. Add the remaining ingredients and mix well.
+7. Evenly distribute on a baking sheet with parchment paper.
+8. Bake at 200°F for 5-6 hours, stirring every 30-60 minutes.

@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipes');
+  const cats = new Set<string>();
+  recipes.forEach(r => (r.data.categories ?? []).forEach(c => cats.add(c.toLowerCase())));
+  return Array.from(cats).map(category => ({ params: { category } }));
+}
+
+const { params } = Astro;
+const category = params.category!.toLowerCase();
+const all = await getCollection('recipes');
+const list = all.filter(r => (r.data.categories ?? []).some(c => c.toLowerCase() === category)).sort((a,b)=> (new Date(b.data.date).getTime() - new Date(a.data.date).getTime()));
+---
+<BaseLayout title={`Category: ${category}`}>
+  <section class="container">
+    <h1 class="text-3xl font-extrabold tracking-tight">Category: {category}</h1>
+    <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {list.map(({ slug, data }) => (
+        <a href={`/recipes/${slug}`} class="card p-4">
+          <div class="grid gap-2">
+            <div class="font-semibold tracking-tight text-slate-900">{data.title}</div>
+            <div class="text-sm text-muted">{new Date(data.date).toLocaleDateString()}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout> 

@@ -1,0 +1,71 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+const all = await getCollection('recipes');
+const recipes = all.sort((a,b) => (new Date(b.data.date).getTime() - new Date(a.data.date).getTime()));
+const q = Astro.url.searchParams.get('q')?.toLowerCase() ?? '';
+const initial = q
+  ? recipes.filter(r =>
+      r.data.title.toLowerCase().includes(q) ||
+      (r.data.description?.toLowerCase().includes(q)) ||
+      r.body?.toLowerCase().includes(q)
+    )
+  : recipes;
+---
+<BaseLayout title="All Recipes">
+  <section class="container grid gap-3 pb-2">
+    <h1 class="text-3xl font-extrabold tracking-tight">All Recipes</h1>
+    <div class="flex items-center gap-2 rounded-xl border border-slate-200 bg-white/80 p-2 shadow-sm">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-slate-400"><path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 105.364 11.108l3.889 3.889a.75.75 0 101.06-1.06l-3.888-3.89A6.75 6.75 0 0010.5 3.75zm-5.25 6.75a5.25 5.25 0 1110.5 0 5.25 5.25 0 01-10.5 0z" clip-rule="evenodd"/></svg>
+      <input id="search" type="search" placeholder="Type to filter..." value={q} autocomplete="off" class="w-full rounded-md border-0 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-300" />
+    </div>
+  </section>
+  <section class="container mt-4">
+    <div id="list" class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {initial.map(({ slug, data, body }) => (
+        <a href={`/recipes/${slug}`} class="card p-4">
+          <div class="grid gap-2">
+            <div class="font-semibold tracking-tight text-slate-900">{data.title}</div>
+            <div class="text-sm text-muted">{new Date(data.date).toLocaleDateString()}</div>
+            {data.description && <p class="text-sm text-muted">{data.description}</p>}
+            <div class="flex flex-wrap gap-1">{data.categories?.map((c) => <span class="pill">{c}</span>)}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+  <script>
+    const input = document.getElementById('search');
+    const list = document.getElementById('list');
+    const template = (r) => `
+      <a href="/recipes/${r.id}" class="card p-4">
+        <div class="grid gap-2">
+          <div class="font-semibold tracking-tight text-slate-900">${r.title}</div>
+          <div class="text-sm text-muted">${new Date(r.date).toLocaleDateString()}</div>
+          ${r.description ? `<p class=\"text-sm text-muted\">${r.description}</p>` : ''}
+          <div class="flex flex-wrap gap-1">${(r.categories||[]).map(c=>`<span class=\"pill\">${c}</span>`).join('')}</div>
+        </div>
+      </a>`
+    let index;
+    async function ensureIndex(){
+      if (!index) {
+        const res = await fetch('/search-index.json');
+        index = await res.json();
+      }
+      return index;
+    }
+    async function runSearch() {
+      const q = input.value.trim().toLowerCase();
+      const idx = await ensureIndex();
+      const results = idx.filter(r =>
+        r.title.toLowerCase().includes(q)
+        || (r.description||'').toLowerCase().includes(q)
+        || (r.body||'').toLowerCase().includes(q)
+        || (r.categories||[]).some(c => c.toLowerCase().includes(q))
+      ).map(r => ({ ...r, id: r.slug }));
+      list.innerHTML = results.map(template).join('');
+    }
+    input.addEventListener('input', runSearch);
+    runSearch();
+  </script>
+</BaseLayout> 
