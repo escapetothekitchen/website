@@ -1,0 +1,77 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+const recipes = await getCollection('recipes');
+const sorted = recipes.sort((a,b) => (new Date(b.data.date).getTime() - new Date(a.data.date).getTime()));
+---
+<BaseLayout title="Escape To The Kitchen">
+  <section class="container grid gap-3 pb-2">
+    <h1 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Family Recipes</h1>
+    <p class="text-muted max-w-prose">Family recipes, easy to browse and search.</p>
+    <div class="flex items-center gap-2 rounded-xl border border-slate-200 bg-white/80 p-2 shadow-sm">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-slate-400"><path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 105.364 11.108l3.889 3.889a.75.75 0 101.06-1.06l-3.888-3.89A6.75 6.75 0 0010.5 3.75zm-5.25 6.75a5.25 5.25 0 1110.5 0 5.25 5.25 0 01-10.5 0z" clip-rule="evenodd"/></svg>
+      <input id="home-search" type="search" placeholder="Search recipes (name, ingredients, notes)" autocomplete="off" class="w-full rounded-md border-0 px-3 py-2 outline-none focus:ring-2 focus:ring-brand-300" />
+    </div>
+  </section>
+
+  <section class="container mt-6">
+    <div class="mb-3 flex items-center justify-between">
+      <h2 class="text-xl font-semibold">Latest</h2>
+      <a href="/recipes" class="link">View all →</a>
+    </div>
+    <div id="latest" class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {sorted.slice(0, 12).map(({ slug, data }) => (
+        <div class="card p-4">
+          <div class="grid gap-2">
+            <a href={`/recipes/${slug}`} class="font-semibold tracking-tight text-slate-900 hover:underline">{data.title}</a>
+            <div class="text-sm text-muted">{new Date(data.date).toLocaleDateString()}</div>
+            <div class="flex flex-wrap gap-1">
+              {data.categories?.map((c) => <a href={`/categories/${encodeURIComponent(c.toLowerCase())}/`} class="pill">{c}</a>)}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+  <script>
+    const input = document.getElementById('home-search');
+    const container = document.getElementById('latest');
+    const template = (r) => `
+      <div class="card p-4">
+        <div class="grid gap-2">
+          <a href="/recipes/${r.slug}" class="font-semibold tracking-tight text-slate-900 hover:underline">${r.title}</a>
+          <div class="text-sm text-muted">${new Date(r.date).toLocaleDateString()}</div>
+          <div class="flex flex-wrap gap-1">${(r.categories||[]).map(c=>`<a href=\"/categories/${encodeURIComponent(c.toLowerCase())}/\" class=\"pill\">${c}</a>`).join('')}</div>
+        </div>
+      </div>`
+    let index;
+    async function ensureIndex(){
+      if (!index) {
+        const res = await fetch('/search-index.json');
+        index = await res.json();
+      }
+      return index;
+    }
+    async function renderLatestDefault() {
+      const idx = await ensureIndex();
+      container.innerHTML = idx.slice(0, 12).map(template).join('');
+    }
+    async function runSearch() {
+      const q = input.value.trim().toLowerCase();
+      const idx = await ensureIndex();
+      if (!q) {
+        return renderLatestDefault();
+      }
+      const results = idx.filter(r =>
+        r.title.toLowerCase().includes(q)
+        || (r.description||'').toLowerCase().includes(q)
+        || (r.body||'').toLowerCase().includes(q)
+        || (r.categories||[]).some(c => c.toLowerCase().includes(q))
+      ).slice(0, 24);
+      container.innerHTML = results.map(template).join('');
+    }
+    input.addEventListener('input', runSearch);
+    // Initial render ensures we always show the latest ordering
+    renderLatestDefault();
+  </script>
+</BaseLayout> 

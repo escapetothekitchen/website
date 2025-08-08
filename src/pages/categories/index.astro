@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+const recipes = await getCollection('recipes');
+const categoryToRecipes = new Map<string, typeof recipes>();
+for (const r of recipes) {
+  for (const c of (r.data.categories ?? [])) {
+    const key = c.toLowerCase();
+    if (!categoryToRecipes.has(key)) categoryToRecipes.set(key, [] as any);
+    (categoryToRecipes.get(key) as any).push(r);
+  }
+}
+const stats = Array.from(categoryToRecipes.entries())
+  .map(([slug, items]) => ({ slug, count: items.length, name: slug.replace(/-/g,' ').replace(/\b\w/g, s=>s.toUpperCase()) }))
+  .sort((a,b)=> a.name.localeCompare(b.name));
+---
+<BaseLayout title="Categories">
+  <section class="container">
+    <h1 class="text-3xl font-extrabold tracking-tight">Categories</h1>
+    <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {stats.map(({slug, name, count}) => (
+        <a href={`/categories/${encodeURIComponent(slug)}/`} class="card p-4">
+          <div class="flex items-center justify-between">
+            <div class="font-semibold tracking-tight text-slate-900">{name}</div>
+            <span class="pill">{count} {count === 1 ? 'recipe' : 'recipes'}</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout> 

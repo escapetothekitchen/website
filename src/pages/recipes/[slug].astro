@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, getEntryBySlug } from 'astro:content';
+
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipes');
+  return recipes.map(r => ({ params: { slug: r.slug } }));
+}
+
+const { params } = Astro;
+const entry = await getEntryBySlug('recipes', params.slug!);
+if (!entry) {
+  throw new Error(`Recipe not found: ${params.slug}`);
+}
+const { Content } = await entry.render();
+---
+<BaseLayout title={entry.data.title}>
+  <article class="container grid gap-2">
+    <h1 class="text-3xl font-extrabold tracking-tight">{entry.data.title}</h1>
+    <div class="text-sm text-muted">{new Date(entry.data.date).toLocaleDateString()}</div>
+    {entry.data.categories?.length ? (
+      <div class="flex flex-wrap gap-1">{entry.data.categories.map((c) => <a href={`/categories/${encodeURIComponent(c.toLowerCase())}/`} class="pill">{c}</a>)}</div>
+    ) : null}
+    <div class="prose prose-slate max-w-none">
+      <Content />
+    </div>
+  </article>
+</BaseLayout> 
