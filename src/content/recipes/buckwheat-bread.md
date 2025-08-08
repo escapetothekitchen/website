@@ -1,11 +1,9 @@
 ---
-title: Buckwheat Bread
+title: 'Buckwheat Bread'
 date: '2020-09-15T04:00:00.000Z'
 categories:
-  - food
   - bread
   - snack
-description: I've been trying to find the perfect buckwheat bread. I've been experimenting
 ---
 ![](/assets/images/buckwheat_bread.jpg)
 
@@ -36,3 +34,6 @@ Instructions
    loaf
 5. Bake for 27 minutes
 6. Let sit for a few minutes to settle. Add toppings, and enjoy
+
+
+

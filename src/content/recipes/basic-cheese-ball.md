@@ -1,11 +1,10 @@
 ---
-title: Basic Cheese Ball
+title: 'Basic Cheese Ball'
 date: '2023-03-23T04:00:00.000Z'
 categories:
-  - food
   - appetizer
   - sauce
-description: A basic cheese ball.
+  - bread
 ---
 A basic cheese ball.
 
@@ -28,3 +27,6 @@ Directions
 6. Put mixed nuts in a food processor to finely chop them.
 7. Pour nuts into a dish and roll the cheese ball around until it is completely covered. 
 8. Serve.
+
+
+

@@ -1,10 +1,9 @@
 ---
-title: Granola
+title: 'Granola'
 date: '2022-11-06T04:00:00.000Z'
 categories:
-  - food
   - snack
-description: Ingredients
+  - breakfast
 ---
 Ingredients
 
@@ -31,3 +30,5 @@ Directions
 6. Add the remaining ingredients and mix well.
 7. Evenly distribute on a baking sheet with parchment paper.
 8. Bake at 200°F for 5-6 hours, stirring every 30-60 minutes.
+
+

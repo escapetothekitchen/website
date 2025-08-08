@@ -1,14 +1,8 @@
 ---
-title: Spinach Artichoke Dip
+title: 'Spinach Artichoke Dip'
 date: '2025-08-08T00:54:10.132Z'
 categories:
-  - food
   - appetizer
-  - bread
-description: >-
-  This is tasty. Most recipes for spinach artichoke dip call for Mozzarella
-  cheese. One day I didn't have any and substituted the cheeses that I did have.
-  And it was delicious! I wil
 ---
 ![](/assets/images/spinach_artichoke_dip.jpg)
 
@@ -40,3 +34,5 @@ Directions
 8.  Sprinkle the remaining Parmesan cheese on top.
 9.  Bake for about 35 minutes or until the top is golden.
 10. Enjoy with chips, toasted bread, sliced veggies, or whatever you want really.
+
+

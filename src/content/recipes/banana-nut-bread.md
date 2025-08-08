@@ -1,10 +1,8 @@
 ---
-title: Banana Nut Bread
+title: 'Banana Nut Bread'
 date: '2020-10-06T04:00:00.000Z'
 categories:
-  - food
   - bread
-description: Ingredients
 ---
 Ingredients
 
@@ -31,3 +29,6 @@ Directions
    baking powder, salt). Lastly add in chopped up walnuts and chocolate chips. ( It actually works better if you add the chocolate chips after you have already poured it into the baking pan because then the chocolate chips don't all end up on the bottom.)
 2. Grease your baking pan well and pour batter into loaf pan.
 3. Bake at 350 degrees for 45-55 minutes.
+
+
+

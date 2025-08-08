@@ -1,10 +1,8 @@
 ---
-title: Coconut Flour Smashcake
+title: 'Coconut Flour Smashcake'
 date: '2022-04-20T04:00:00.000Z'
 categories:
-  - food
   - dessert
-description: Coconut Flour Cake
 ---
 Coconut Flour Cake
 
@@ -33,3 +31,5 @@ Directions:
 6. In another bowl beat the egg whites we separated earlier until soft peaks form (looks like softly whipped cream). Gently fold the egg whites into the batter till there are only a few streaks of whites visible.
 
 7. Pour into prepared cake pan and bake 20-25 minutes or until the tops springs back when lightly pressed. Allow the cakes to cool for 5-10 minutes, then carefully remove from the pans and cool completely.
+
+

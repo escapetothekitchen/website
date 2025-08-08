@@ -1,10 +1,8 @@
 ---
-title: Chocolate Gluten-free Cupcakes
+title: 'Chocolate Gluten-free Cupcakes'
 date: '2023-04-26T04:00:00.000Z'
 categories:
-  - food
   - dessert
-description: Chocolate Gluten-free Cupcakes
 ---
 # Chocolate Gluten-free Cupcakes
 
@@ -41,3 +39,5 @@ FOR 12 CUPCAKES:
 4. Add butter, eggs, milk, oil, and vanilla. Add in activated cocoa mixture beat with a mixer until combined. Then stop. Don't overbeat the mixture, two minutes on medium tops.
 5. Spoon batter evenly into cupcake wells. Bake for 20 minutes, or until a toothpick inserted in the center comes out clean.
 6. Remove from oven and let cool in the pan for 5 minutes, then remove from pan and let cool on a rack.
+
+

@@ -1,12 +1,10 @@
 ---
-title: Spicy Chicken Kale Grain Bowl
+title: 'Spicy Chicken Kale Grain Bowl'
 date: '2020-09-24T04:00:00.000Z'
 categories:
-  - food
   - salad
   - main
   - sauce
-description: Salad Ingredients
 ---
 ![](/assets/images/chicken_kale_grain_bowl.jpg)
 
@@ -32,3 +30,5 @@ Sauce Ingredients
 * 2 tbsp olive oil.
 * salt
 * pepper
+
+

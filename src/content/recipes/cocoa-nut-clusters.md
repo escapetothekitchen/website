@@ -1,11 +1,9 @@
 ---
-title: Cocoa-Nut Clusters
+title: 'Cocoa-Nut Clusters'
 date: '2020-09-12T04:00:00.000Z'
 categories:
-  - food
   - dessert
   - snack
-description: These Cocoa-Nut Clusters are great date snacks or a dessert. I first came up
 ---
 ![](/assets/images/cocoa_nut_clusters.jpg)
 
@@ -34,3 +32,5 @@ Instructions
 3. Form into balls and put on wax paper (or cookie sheet or something)
 4. Place in fridge for an hour or 2 to set. Keep refrigerated or they melt! If
    you want to make them extra festive stick them on serving sticks.
+
+

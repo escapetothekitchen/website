@@ -1,4 +1,5 @@
 import { getCollection } from 'astro:content';
+import { makeExcerpt } from '../lib/text';
 
 export async function GET() {
   const recipes = await getCollection('recipes');
@@ -8,7 +9,7 @@ export async function GET() {
     title: r.data.title,
     date: r.data.date,
     categories: r.data.categories,
-    description: r.data.description,
+    description: makeExcerpt(r.body || ''),
     body: r.body,
   }));
   return new Response(JSON.stringify(data), {

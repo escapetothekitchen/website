@@ -1,12 +1,10 @@
 ---
-title: Beef Taco Salad
+title: 'Beef Taco Salad'
 date: '2020-10-11T04:00:00.000Z'
 categories:
-  - food
   - salad
   - main
   - sauce
-description: Tasty quick meal
 ---
 ![](/assets/images/beef_taco_salad.jpg)
 
@@ -35,3 +33,6 @@ Ingredients:
 Directions:
 
 1. Make it
+
+
+

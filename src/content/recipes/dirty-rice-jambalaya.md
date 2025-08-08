@@ -1,11 +1,9 @@
 ---
-title: Dirty Rice Jambalaya
+title: 'Dirty Rice Jambalaya'
 date: '2023-03-08T04:00:00.000Z'
 categories:
-  - food
   - main
   - sauce
-description: My take on Jambalaya.
 ---
 My take on Jambalaya.
 
@@ -48,3 +46,5 @@ Directions
 12. Remove from heat and serve immediately or else the shrimp will get tough.
 
 Yum!
+
+

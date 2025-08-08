@@ -1,10 +1,9 @@
 ---
-title: Mussels with Linguine in a white wine cream sauce
+title: 'Mussels with Linguine in a white wine cream sauce'
 date: '2021-04-09T04:00:00.000Z'
 categories:
-  - food
   - sauce
-description: Really really good. This dish looks fancy. I want to try it with clams or
+  - main
 ---
 ![](/assets/images/linguine_mussels.jpg)
 
@@ -41,3 +40,5 @@ Directions
    up.
    Protip: Remove broken shells as you go because they are a bit dangerous when
    you are trying to eat.
+
+

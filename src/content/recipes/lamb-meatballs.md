@@ -1,12 +1,9 @@
 ---
-title: Lamb Meatballs
+title: 'Lamb Meatballs'
 date: '2020-10-15T04:00:00.000Z'
 categories:
-  - food
-  - dessert
   - main
   - sauce
-description: These are tasty and my favorite thing to make with ground lamb.
 ---
 ![](/assets/images/lamb_meatballs.jpg)
 
@@ -45,3 +42,5 @@ Directions for meatballs
 
 Directions for Sauce
 1. Make sauce.
+
+

@@ -1,11 +1,9 @@
 ---
-title: Banana Pancakes
+title: 'Banana Pancakes'
 date: '2020-09-13T04:00:00.000Z'
 categories:
-  - food
   - dessert
   - breakfast
-description: Ingredients
 ---
 ![](/assets/images/banana_pancakes.jpg)
 
@@ -32,3 +30,6 @@ Instructions
    more fragile than a normal pancake, and will take more time to cook. Be
    patient.
 5. Melt butter on pancakes during the last few seconds before serving
+
+
+

@@ -1,10 +1,8 @@
 ---
-title: Jamaican Jerk Seasoning
+title: 'Jamaican Jerk Seasoning'
 date: '2023-04-25T04:00:00.000Z'
 categories:
-  - food
   - sauce
-description: Description goes here
 ---
 Description goes here
 
@@ -25,3 +23,5 @@ Description goes here
 - 1/4 teaspoon ground nutmeg
 - 1/4 teaspoon ground clove
 - 1 teaspoon ground cumin
+
+

@@ -1,11 +1,9 @@
 ---
-title: Minestrone Soup
+title: 'Minestrone Soup'
 date: '2021-02-06T04:00:00.000Z'
 categories:
-  - food
   - soup
   - main
-description: Delicious
 ---
 ![](/assets/images/minestrone_soup.jpg)
 
@@ -27,3 +25,5 @@ Ingredients
 * thyme
 * salt
 * pepper
+
+

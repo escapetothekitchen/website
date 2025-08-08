@@ -1,11 +1,9 @@
 ---
-title: Instant Pot Black Beans
+title: 'Instant Pot Black Beans'
 date: '2020-10-10T04:00:00.000Z'
 categories:
-  - food
   - main
   - sauce
-description: For me black beans are the sort of dish that are very hit or miss. Sometimes I
 ---
 For me black beans are the sort of dish that are very hit or miss. Sometimes I
 have them and I think meh"" but other times I have them and they are delicious."
@@ -52,3 +50,6 @@ Directions
    right consistency.
 5. Enjoy with sour cream on top. If you want them spicy then add a can of green
    chilis or some hot sauce.
+
+
+

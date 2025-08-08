@@ -1,12 +1,8 @@
 ---
-title: Raspberry Buttercream Frosting
+title: 'Raspberry Buttercream Frosting'
 date: '2021-04-18T04:00:00.000Z'
 categories:
-  - food
   - dessert
-description: >-
-  Frosting vs icing. I know I have trouble remembering the difference. Frosting
-  is
 ---
 ![](/assets/images/raspberry_buttercream_frosting.jpg)
 
@@ -39,3 +35,5 @@ Directions
    until pretty much pulverized. Drain through seive. Take the juice that comes
    through the sieve and add spoonful by spoonful to frosting while mixing
    until it turns the desired pink color.
+
+

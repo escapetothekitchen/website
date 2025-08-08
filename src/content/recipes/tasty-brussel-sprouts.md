@@ -1,10 +1,8 @@
 ---
-title: Tasty Brussel Sprouts
+title: 'Tasty Brussel Sprouts'
 date: '2024-01-01T04:00:00.000Z'
 categories:
-  - food
-  - sauce
-description: This dish looks impressive and colorful.
+  - side
 ---
 ![](/assets/images/tasty_brussel_sprouts.jpg)
 
@@ -36,3 +34,5 @@ Directions:
 
 
 These leftovers look amazing!
+
+

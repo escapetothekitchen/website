@@ -1,12 +1,8 @@
 ---
-title: Chia pudding
+title: 'Chia pudding'
 date: '2024-10-08T00:00:00.000Z'
 categories:
-  - food
   - dessert
-description: >-
-  For when you want a dessert that is dairy free, egg free, gluten free, AND
-  vegan all at the same time.
 ---
 For when you want a dessert that is dairy free, egg free, gluten free, AND vegan all at the same time.
 
@@ -37,3 +33,5 @@ Ingredients
 - 1 tsp cinnamon
 - 1 tsp nutmeg
 - 1/8 tsp salt
+
+

@@ -1,13 +1,8 @@
 ---
-title: Deviled Eggs that Actually Taste Good
+title: 'Deviled Eggs that Actually Taste Good'
 date: '2020-10-11T04:00:00.000Z'
 categories:
-  - food
   - appetizer
-description: >-
-  I have a complicated relationship with deviled eggs. The way most people make
-  them they are pretty meh and I don't understand why anyone likes them. In
-  contrast these deviled eggs
 ---
 <img src="/assets/images/deviled_eggs.jpg" width="200"/>
 
@@ -35,3 +30,5 @@ Directions:
 Notes: They look better if you make an amount that actually fits the number of holes on
 the serving plate. I should have made 1 more egg. Learn from my mistake. Count your
 holes.
+
+

@@ -1,12 +1,9 @@
 ---
-title: Zucchini Flan
+title: 'Zucchini Flan'
 date: '2020-09-21T04:00:00.000Z'
 categories:
-  - food
+  - main
   - sauce
-description: >-
-  This recipe is fancy. I feel fancy making it. I feel fancy eating it. And I
-  feel
 ---
 ![](/assets/images/zucchini_flan.jpg)
 
@@ -78,3 +75,5 @@ temperature of the food confidently tell them that its supposed to be served
 that temperature. Cut a piece of the zucchini flan and then spoon a little bit
 of Tomato Coulis on top. Then sprinkle/arrange the parsley on top and admire
 your zucchini flan.
+
+

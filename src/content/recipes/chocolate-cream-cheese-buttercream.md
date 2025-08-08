@@ -1,10 +1,8 @@
 ---
-title: Chocolate Cream Cheese Buttercream
+title: 'Chocolate Cream Cheese Buttercream'
 date: '2023-04-26T04:00:00.000Z'
 categories:
-  - food
   - dessert
-description: Chocolate Cream Cheese Buttercream Frosting
 ---
 # Chocolate Cream Cheese Buttercream Frosting
 
@@ -24,3 +22,5 @@ description: Chocolate Cream Cheese Buttercream Frosting
 3. Attempt to sift your powdered sugar so that your buttercream is smooth and decadent. After sifting 2 cups, lose patience and give up sifting.
 4. Mix in (somewhat) sifted powdered sugar slowly and in increments and then add in the milk until the desired consistency is reached. 
 5. Transfer frosting to a piping bag or large zip top bag and frost your completely cooled cupcakes/cake.
+
+

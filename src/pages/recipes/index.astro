@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from 'astro:content';
+import { makeExcerpt } from "../../lib/text";
 const all = await getCollection('recipes');
 const recipes = all.sort((a,b) => (new Date(b.data.date).getTime() - new Date(a.data.date).getTime()));
 const q = Astro.url.searchParams.get('q')?.toLowerCase() ?? '';
@@ -27,7 +28,7 @@ const initial = q
           <div class="grid gap-2">
             <div class="font-semibold tracking-tight text-slate-900">{data.title}</div>
             <div class="text-sm text-muted">{new Date(data.date).toLocaleDateString()}</div>
-            {data.description && <p class="text-sm text-muted">{data.description}</p>}
+            <p class="text-sm text-muted">{data.description || makeExcerpt(body || '')}</p>
             <div class="flex flex-wrap gap-1">{data.categories?.map((c) => <span class="pill">{c}</span>)}</div>
           </div>
         </a>

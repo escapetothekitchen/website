@@ -1,11 +1,9 @@
 ---
-title: Fig & Walnut Gluten free muffins
+title: 'Fig & Walnut Gluten free muffins'
 date: '2024-01-30T00:00:00.000Z'
 categories:
-  - food
   - dessert
   - bread
-description: Makes a dozen and a half of muffins
 ---
 Makes a dozen and a half of muffins
 
@@ -31,3 +29,5 @@ Instructions
 5. Slowly add the wet ingredients to the dry ingredients and whisk together until just combined. Gently fold in the figs and the walnuts.
 6. Spoon the batter into the prepared muffin cups.
 7. Bake for 20-25 minutes or until the tops of the muffins are golden brown and toothpic comes out clean.
+
+

@@ -1,9 +1,8 @@
 ---
-title: Lavender Sugar  Cookies
+title: 'Lavender Sugar  Cookies'
 date: '2023-06-25T00:00:00.000Z'
 categories:
   - dessert
-description: Lavender Sugar Cookies
 ---
 # Lavender Sugar Cookies
 
@@ -28,3 +27,5 @@ description: Lavender Sugar Cookies
 
 5. To bake, preheat the oven to 350 degrees F (175 degrees C).
 6. Bake chilled dough on non stick cookie sheet for 10 to 15 minutes minutes or until done. ( cookies are fragrant and edges turn light golden brown).
+
+

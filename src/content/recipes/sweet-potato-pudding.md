@@ -1,9 +1,8 @@
 ---
-title: Sweet Potato Pudding
+title: 'Sweet Potato Pudding'
 date: '2023-12-26T04:00:00.000Z'
 categories:
   - dessert
-description: Sweet Potato Pudding
 ---
 # Sweet Potato Pudding
 
@@ -37,3 +36,5 @@ description: Sweet Potato Pudding
 ### Eggless
 You can substitute 1 TBSP cornstarch for the egg. This will make
 the inside more goey / pudding-like. It tastes just as good.
+
+

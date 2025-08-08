@@ -1,12 +1,10 @@
 ---
-title: Barely Pumpkin Soup
+title: 'Barely Pumpkin Soup'
 date: '2020-10-04T04:00:00.000Z'
 categories:
-  - food
   - soup
   - main
   - sauce
-description: The perfect soup for fall. It tastes like festive seasoning!
 ---
 ![](/assets/images/barely_pumpkin_soup.jpg)
 
@@ -50,3 +48,6 @@ Directions
 10. Enjoy!
 
 Yum!
+
+
+
