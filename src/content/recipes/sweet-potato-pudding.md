@@ -19,7 +19,7 @@ categories:
 - 1/4 tsp cloves
 - 1/4 tsp cinnamon
 - 1/8 tsp allspice
-- 1/4 milk amount
+- 1/4 cup milk
 
 ## Instructions
 
