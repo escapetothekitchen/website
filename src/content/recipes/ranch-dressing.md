@@ -5,17 +5,18 @@ categories:
   - sauce
 ---
 ## Ingredients
-- 1/2 cup Mayo
+- 1 cup Mayo
 - 1/2 cup Buttermilk
-- chives
-- dill
-- italian seasoning
-- garlic
-- onion powder
-- parsley
-- salt
-- pepper
-- lemon juice
+- 1/4 tsp salt
+- 1/4 tsp pepper
+- 2 tsp chives
+- 2 tsp dill
+- 1 tsp italian seasoning
+- 1 tsp garlic
+- 1 tsp onion powder
+- 1 tsp parsley
+- 1 tsp lemon juice
+- 2 tbsp sour cream
 
 
 ## Instructions
