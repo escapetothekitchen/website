@@ -29,8 +29,6 @@ Directions
 10. Bake 19 minutes
 11. Rest 30 minutes before cutting
 
-Flavors:
-
 ## Cinnamon Raisin
 Add toppings at the beginning:
 - 60g raisins
