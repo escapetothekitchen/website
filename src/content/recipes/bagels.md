@@ -4,7 +4,7 @@ date: '2026-02-15T04:00:00.000Z'
 categories:
   - bread
 ---
-![](/assets/images/bagel.jpg)
+![](/assets/images/bagel.png)
 
 Ingredients
 
@@ -37,6 +37,7 @@ Add toppings at the beginning:
 - 7g cinnamon
 
 146g target when dividing
+
 
 
 
