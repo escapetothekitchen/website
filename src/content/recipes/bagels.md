@@ -1,6 +1,6 @@
 ---
 title: 'Bagels'
-date: '2026-2-15T04:00:00.000Z'
+date: '2026-02-15T04:00:00.000Z'
 categories:
   - bread
 ---
@@ -37,5 +37,6 @@ Add toppings at the beginning:
 - 7g cinnamon
 
 146g target when dividing
+
 
 
