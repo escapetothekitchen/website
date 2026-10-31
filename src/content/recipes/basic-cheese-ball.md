@@ -3,7 +3,6 @@ title: 'Basic Cheese Ball'
 date: '2023-03-23T04:00:00.000Z'
 categories:
   - appetizer
-  - sauce
   - bread
 ---
 A basic cheese ball.

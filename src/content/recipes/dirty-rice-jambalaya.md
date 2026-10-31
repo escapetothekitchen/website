@@ -3,7 +3,6 @@ title: 'Dirty Rice Jambalaya'
 date: '2023-03-08T04:00:00.000Z'
 categories:
   - main
-  - sauce
 ---
 My take on Jambalaya.
 

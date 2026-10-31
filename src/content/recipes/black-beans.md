@@ -3,7 +3,6 @@ title: 'Instant Pot Black Beans'
 date: '2020-10-10T04:00:00.000Z'
 categories:
   - main
-  - sauce
 ---
 For me black beans are the sort of dish that are very hit or miss. Sometimes I
 have them and I think meh"" but other times I have them and they are delicious."

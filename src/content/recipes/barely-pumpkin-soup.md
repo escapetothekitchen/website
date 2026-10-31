@@ -4,7 +4,6 @@ date: '2020-10-04T04:00:00.000Z'
 categories:
   - soup
   - main
-  - sauce
 ---
 ![](/assets/images/barely_pumpkin_soup.jpg)
 
