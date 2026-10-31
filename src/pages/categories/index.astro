@@ -16,7 +16,7 @@ const stats = Array.from(categoryToRecipes.entries())
 ---
 <BaseLayout title="Categories">
   <section class="container">
-    <h1 class="text-3xl font-extrabold tracking-tight">Categories</h1>
+    <h1 class="page-heading text-3xl tracking-tight">Categories</h1>
     <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {stats.map(({slug, name, count}) => (
         <a href={`/categories/${encodeURIComponent(slug)}/`} class="card p-4">
@@ -28,4 +28,4 @@ const stats = Array.from(categoryToRecipes.entries())
       ))}
     </div>
   </section>
-</BaseLayout> 
+</BaseLayout>

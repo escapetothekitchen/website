@@ -17,7 +17,7 @@ const { Content } = await entry.render();
 ---
 <BaseLayout title={entry.data.title}>
   <article class="container grid gap-2">
-    <h1 class="text-3xl font-extrabold tracking-tight">{entry.data.title}</h1>
+    <h1 class="page-heading text-3xl tracking-tight">{entry.data.title}</h1>
     <div class="publication-date">{formatPublicationDate(entry.data.date)}</div>
     {entry.data.categories?.length ? (
       <div class="flex flex-wrap gap-1">{entry.data.categories.map((c) => <a href={`/categories/${encodeURIComponent(c.toLowerCase())}/`} class="pill">{c}</a>)}</div>

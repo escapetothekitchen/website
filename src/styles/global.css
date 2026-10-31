@@ -18,6 +18,7 @@ a:hover { background-color: #eee3d2; text-decoration: underline; }
 a:focus-visible { outline: 2px solid #2E4129; outline-offset: 4px; }
 .card a:not(.pill), a.card, a.card .text-slate-900 { color: #000; }
 .publication-date { font-size: 0.75rem; line-height: 1.5; color: #796f64; }
+.page-heading { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; color: #000; }
 
 .prose a {
   @apply text-brand-700 underline-offset-2 hover:underline;

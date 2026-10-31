@@ -18,7 +18,7 @@ const list = all.filter(r => (r.data.categories ?? []).some(c => c.toLowerCase()
 ---
 <BaseLayout title={`Category: ${category}`}>
   <section class="container">
-    <h1 class="text-3xl font-extrabold tracking-tight">Category: {category}</h1>
+    <h1 class="page-heading text-3xl tracking-tight">Category: {category}</h1>
     <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {list.map(({ slug, data, body }) => (
         <a href={`/recipes/${slug}`} class="card p-4">
