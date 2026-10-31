@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from 'astro:content';
+import { recipeImage } from '../../lib/recipeImage';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -18,14 +19,19 @@ const list = all.filter(r => (r.data.categories ?? []).some(c => c.toLowerCase()
   <section class="container">
     <h1 class="text-3xl font-extrabold tracking-tight">Category: {category}</h1>
     <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      {list.map(({ slug, data }) => (
+      {list.map(({ slug, data, body }) => (
         <a href={`/recipes/${slug}`} class="card p-4">
-          <div class="grid gap-2">
+          <div class="flex items-start gap-4">
+          {recipeImage(body, data.image) && (
+            <img src={recipeImage(body, data.image)} alt="" width="80" height="80" loading="lazy" decoding="async" class="h-20 w-20 shrink-0 rounded-lg object-cover" />
+          )}
+          <div class="grid min-w-0 flex-1 gap-2">
             <div class="font-semibold tracking-tight text-slate-900">{data.title}</div>
             <div class="text-sm text-muted">{new Date(data.date).toLocaleDateString()}</div>
+          </div>
           </div>
         </a>
       ))}
     </div>
   </section>
-</BaseLayout> 
+</BaseLayout>
