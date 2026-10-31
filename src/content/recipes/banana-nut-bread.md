@@ -3,6 +3,7 @@ title: 'Banana Nut Bread'
 date: '2020-10-06T04:00:00.000Z'
 categories:
   - bread
+  - breakfast
 ---
 Ingredients
 

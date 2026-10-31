@@ -1,5 +1,5 @@
 ---
-title: 'Zucchini Flan'
+title: 'Zucchini Flan with Tomato Coulis'
 date: '2020-09-21T04:00:00.000Z'
 categories:
   - main

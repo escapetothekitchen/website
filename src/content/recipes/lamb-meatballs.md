@@ -1,5 +1,5 @@
 ---
-title: 'Lamb Meatballs'
+title: 'Lamb Meatballs with a Romesco Sauce'
 date: '2020-10-15T04:00:00.000Z'
 categories:
   - main

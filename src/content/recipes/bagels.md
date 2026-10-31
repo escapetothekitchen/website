@@ -3,6 +3,7 @@ title: 'Bagels'
 date: '2026-02-15T04:00:00.000Z'
 categories:
   - bread
+  - breakfast
 ---
 ![](/assets/images/bagel.png)
 

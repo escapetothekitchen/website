@@ -1,5 +1,5 @@
 ---
-title: 'Coconut Flour Smashcake'
+title: 'Coconut Flour Cake'
 date: '2022-04-20T04:00:00.000Z'
 categories:
   - dessert

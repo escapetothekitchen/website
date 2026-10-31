@@ -4,7 +4,6 @@ date: '2020-10-11T04:00:00.000Z'
 categories:
   - salad
   - main
-  - sauce
 ---
 ![](/assets/images/beef_taco_salad.jpg)
 

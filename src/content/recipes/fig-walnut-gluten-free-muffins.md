@@ -4,6 +4,7 @@ date: '2024-01-30T00:00:00.000Z'
 categories:
   - dessert
   - bread
+  - breakfast
 ---
 Makes a dozen and a half of muffins
 
