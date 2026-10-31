@@ -10,8 +10,8 @@ html, body { height: 100%; }
 body, .site-shell { background: var(--bg); }
 .site-header { background: #faf7f0ed; border-color: #e5dccf; }
 .site-footer { border-color: #e5dccf; }
-.header-brand { display: inline-flex; align-items: center; gap: 0.625rem; font-family: Georgia, 'Times New Roman', serif; font-size: 1.25rem; line-height: 1.2; font-weight: 600; color: #2E4129; }
-.header-brand img { width: 32px; height: 32px; border-radius: 0.375rem; flex-shrink: 0; }
+.page-brand { display: inline-flex; align-items: center; gap: 1rem; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.5rem, 4vw, 2rem); line-height: 1.15; font-weight: 600; color: #2E4129; }
+.page-brand img { width: 48px; height: 48px; border-radius: 0.5rem; flex-shrink: 0; }
 
 a { color: #2E4129; text-underline-offset: 3px; }
 a:hover { background-color: #eee3d2; text-decoration: underline; }
@@ -24,6 +24,7 @@ a:focus-visible { outline: 2px solid #2E4129; outline-offset: 4px; }
 }
 
 .link { color: #2E4129; }
+.view-all-link { font-size: 0.75rem; color: #796f64; }
 .btn { @apply inline-flex items-center gap-2 rounded-md bg-brand-600 px-4 py-2 text-white shadow-sm hover:bg-brand-700 transition; }
 .card { @apply block rounded-xl border bg-white/80 shadow-sm ring-1 ring-transparent hover:ring-brand-200 transition; border-color: #e5dccf; }
 .pill { @apply inline-block rounded-full border px-2 py-0.5 text-xs font-semibold; border-color: #ddc9af; background: #eadcc8; color: #523c2c; }
