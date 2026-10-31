@@ -22,7 +22,8 @@ const sorted = recipes.sort((a,b) => (new Date(b.data.date).getTime() - new Date
     </div>
     <div id="latest" class="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {sorted.slice(0, 12).map(({ slug, data, body }) => (
-        <div class="card flex items-start gap-4 p-4">
+        <div class="card p-4">
+          <div class="flex items-start gap-4">
           {recipeImage(body, data.image) && (
             <a href={`/recipes/${slug}`} aria-hidden="true" tabindex="-1" class="shrink-0">
               <img src={recipeImage(body, data.image)} alt="" width="80" height="80" loading="lazy" decoding="async" class="h-20 w-20 rounded-lg object-cover" />
@@ -35,6 +36,7 @@ const sorted = recipes.sort((a,b) => (new Date(b.data.date).getTime() - new Date
               {data.categories?.map((c) => <a href={`/categories/${encodeURIComponent(c.toLowerCase())}/`} class="pill">{c}</a>)}
             </div>
           </div>
+          </div>
         </div>
       ))}
     </div>
@@ -44,12 +46,14 @@ const sorted = recipes.sort((a,b) => (new Date(b.data.date).getTime() - new Date
     const container = document.getElementById('latest');
     const escapeAttribute = (value) => String(value).replace(/[&"<>]/g, (c) => ({ '&': '&amp;', '"': '&quot;', '<': '&lt;', '>': '&gt;' }[c]));
     const template = (r) => `
-      <div class="card flex items-start gap-4 p-4">
+      <div class="card p-4">
+        <div class="flex items-start gap-4">
         ${r.image ? `<a href="/recipes/${r.slug}" aria-hidden="true" tabindex="-1" class="shrink-0"><img src="${escapeAttribute(r.image)}" alt="" width="80" height="80" loading="lazy" decoding="async" class="h-20 w-20 rounded-lg object-cover" /></a>` : ''}
         <div class="grid min-w-0 flex-1 gap-2">
           <a href="/recipes/${r.slug}" class="font-semibold tracking-tight text-slate-900 hover:underline">${r.title}</a>
           <div class="text-sm text-muted">${new Date(r.date).toLocaleDateString()}</div>
           <div class="flex flex-wrap gap-1">${(r.categories||[]).map(c=>`<a href=\"/categories/${encodeURIComponent(c.toLowerCase())}/\" class=\"pill\">${c}</a>`).join('')}</div>
+        </div>
         </div>
       </div>`
     let index;
@@ -82,4 +86,4 @@ const sorted = recipes.sort((a,b) => (new Date(b.data.date).getTime() - new Date
     // Initial render ensures we always show the latest ordering
     renderLatestDefault();
   </script>
-</BaseLayout> 
+</BaseLayout>
