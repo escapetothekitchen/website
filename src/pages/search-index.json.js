@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import { makeExcerpt } from '../lib/text';
+import { recipeImage } from '../lib/recipeImage';
 
 export async function GET() {
   const recipes = await getCollection('recipes');
@@ -10,6 +11,7 @@ export async function GET() {
     title: r.data.title,
     date: r.data.date,
     categories: r.data.categories,
+    image: recipeImage(r.body || '', r.data.image),
     description: makeExcerpt(r.body || ''),
     body: r.body,
   }));
