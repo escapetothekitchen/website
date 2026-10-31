@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from 'astro:content';
 import { recipeImage } from '../../lib/recipeImage';
+import { formatPublicationDate } from '../../lib/date';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -27,7 +28,7 @@ const list = all.filter(r => (r.data.categories ?? []).some(c => c.toLowerCase()
           )}
           <div class="grid min-w-0 flex-1 gap-2">
             <div class="font-semibold tracking-tight text-slate-900">{data.title}</div>
-            <div class="text-sm text-muted">{new Date(data.date).toLocaleDateString()}</div>
+            <div class="publication-date">{formatPublicationDate(data.date)}</div>
           </div>
           </div>
         </a>

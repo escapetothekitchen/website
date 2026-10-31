@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection, getEntryBySlug } from 'astro:content';
+import { formatPublicationDate } from '../../lib/date';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -17,7 +18,7 @@ const { Content } = await entry.render();
 <BaseLayout title={entry.data.title}>
   <article class="container grid gap-2">
     <h1 class="text-3xl font-extrabold tracking-tight">{entry.data.title}</h1>
-    <div class="text-sm text-muted">{new Date(entry.data.date).toLocaleDateString()}</div>
+    <div class="publication-date">{formatPublicationDate(entry.data.date)}</div>
     {entry.data.categories?.length ? (
       <div class="flex flex-wrap gap-1">{entry.data.categories.map((c) => <a href={`/categories/${encodeURIComponent(c.toLowerCase())}/`} class="pill">{c}</a>)}</div>
     ) : null}
@@ -25,4 +26,4 @@ const { Content } = await entry.render();
       <Content />
     </div>
   </article>
-</BaseLayout> 
+</BaseLayout>

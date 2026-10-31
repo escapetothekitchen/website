@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from 'astro:content';
 import { recipeImage } from '../../lib/recipeImage';
+import { formatPublicationDate } from '../../lib/date';
 const all = await getCollection('recipes');
 const recipes = all.sort((a,b) => (new Date(b.data.date).getTime() - new Date(a.data.date).getTime()));
 const q = Astro.url.searchParams.get('q')?.toLowerCase() ?? '';
@@ -33,7 +34,7 @@ const initial = q
           )}
           <div class="grid min-w-0 flex-1 gap-2">
             <a href={`/recipes/${slug}`} class="font-semibold tracking-tight text-slate-900 hover:underline">{data.title}</a>
-            <div class="text-sm text-muted">{new Date(data.date).toLocaleDateString()}</div>
+            <div class="publication-date">{formatPublicationDate(data.date)}</div>
             <div class="flex flex-wrap gap-1">{data.categories?.map((c) => <a href={`/categories/${encodeURIComponent(c.toLowerCase())}/`} class="pill">{c}</a>)}</div>
           </div>
           </div>
@@ -42,6 +43,7 @@ const initial = q
     </div>
   </section>
   <script>
+    import { formatPublicationDate } from '../../lib/date';
     const input = document.getElementById('search');
     const list = document.getElementById('list');
     const escapeAttribute = (value) => String(value).replace(/[&"<>]/g, (c) => ({ '&': '&amp;', '"': '&quot;', '<': '&lt;', '>': '&gt;' }[c]));
@@ -51,7 +53,7 @@ const initial = q
         ${r.image ? `<a href="/recipes/${r.slug}" aria-hidden="true" tabindex="-1" class="shrink-0"><img src="${escapeAttribute(r.image)}" alt="" width="80" height="80" loading="lazy" decoding="async" class="h-20 w-20 rounded-lg object-cover" /></a>` : ''}
         <div class="grid min-w-0 flex-1 gap-2">
           <a href="/recipes/${r.id}" class="font-semibold tracking-tight text-slate-900 hover:underline">${r.title}</a>
-          <div class="text-sm text-muted">${new Date(r.date).toLocaleDateString()}</div>
+          <div class="publication-date">${formatPublicationDate(r.date)}</div>
           <div class="flex flex-wrap gap-1">${(r.categories||[]).map(c=>`<a href=\"/categories/${encodeURIComponent(c.toLowerCase())}/\" class=\"pill\">${c}</a>`).join('')}</div>
         </div>
         </div>
