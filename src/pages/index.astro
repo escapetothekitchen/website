@@ -5,9 +5,22 @@ import { recipeImage } from '../lib/recipeImage';
 const recipes = await getCollection('recipes');
 const sorted = recipes.sort((a,b) => (new Date(b.data.date).getTime() - new Date(a.data.date).getTime()));
 ---
-<BaseLayout title="Escape To The Kitchen">
+<BaseLayout title="Escape to the Kitchen">
+  <section class="container mb-8" aria-labelledby="site-title">
+    <div class="site-brand">
+      <img src="/favicon.png" alt="" width="96" height="95" class="site-logo" />
+      <h1 id="site-title" class="site-title">Escape to the Kitchen</h1>
+    </div>
+    <nav aria-label="Browse recipes" class="browse-links">
+      <a href="/categories/" class="font-semibold">Browse by Categories</a>
+      <a href="/categories/dessert/">Desserts</a>
+      <a href="/categories/main/">Main Dishes</a>
+      <a href="/categories/appetizer/">Appetizers</a>
+      <a href="/recipes/">All Recipes</a>
+    </nav>
+  </section>
   <section class="container grid gap-3 pb-2">
-    <h1 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Family Recipes</h1>
+    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Family Recipes</h2>
     <p class="text-muted max-w-prose">Family recipes, easy to browse and search.</p>
     <div class="flex items-center gap-2 rounded-xl border border-slate-200 bg-white/80 p-2 shadow-sm">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-slate-400"><path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 105.364 11.108l3.889 3.889a.75.75 0 101.06-1.06l-3.888-3.89A6.75 6.75 0 0010.5 3.75zm-5.25 6.75a5.25 5.25 0 1110.5 0 5.25 5.25 0 01-10.5 0z" clip-rule="evenodd"/></svg>
