@@ -14,7 +14,7 @@ body, .site-shell { background: var(--bg); }
 a { color: #2E4129; text-underline-offset: 3px; }
 a:hover { background-color: #eee3d2; text-decoration: underline; }
 a:focus-visible { outline: 2px solid #2E4129; outline-offset: 4px; }
-.card a:not(.pill), a.card { color: #2E4129; }
+.card a:not(.pill), a.card, a.card .text-slate-900 { color: #2E4129; }
 
 .prose a {
   @apply text-brand-700 underline-offset-2 hover:underline;
